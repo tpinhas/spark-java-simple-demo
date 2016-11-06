@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>She codes poll for coding skills</title>
+</head>
+<body>
+<h1>She codes poll for coding skills</h1>
+<h2>Please answer the following question:</h2>
+<form name="formSubmitPoll" action="submitPoll" method="post">
+    <div>
+        <label><b>What is the best way to learn new technologies?</b></label>
+        <select name="pollAnswer" class="lstSelected">
+            <option value="Read a book or manual">Read a book or manual</option>
+            <option value="Take a course">Take a course</option>
+            <option value="Find information on the internet">Find information on the internet</option>
+            <option value="Ask a friend to teach you">Ask a friend to teach you</option>
+            <option value="Simply try to use it">Simply try to use it</option>
+        </select>
+    </div>
+    <p>
+    <div>
+        <label>Your name</label>
+        <input type="text" name="name" />
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>
+
+<h2>Poll results</h2>
+
+<div><a href="resultPoll">Go to results</a></div>
+
+<form name="formListPoll" action="listPoll" method="get">
+    <label>View all submitted answers</label>
+    <button onclick="listPoll">Go</button>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spark-formatter-intellij">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../spark-master/config/spark-formatter-intellij.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
